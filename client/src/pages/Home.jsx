@@ -7,11 +7,13 @@ import CTA from "../sections/CTA";
 const Home = () => {
   return (
     <>
-      <Hero />
-      <FeaturedProjects />
-      <HowItWorks />
-      <CTA />
-      <Faq />
+      <div className="mt-20 lg:mt-0">
+        <Hero />
+        <FeaturedProjects />
+        <HowItWorks />
+        <Faq />
+        <CTA />
+      </div>
     </>
   );
 };

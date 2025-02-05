@@ -1,7 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const GridCard = ({ image, title, description, raised, goal }) => {
+const GridCard = ({
+  image,
+  title,
+  description,
+  raised,
+  goal,
+  projectLink,
+  to,
+}) => {
   return (
     <div className="border border-[#dadada] rounded-3xl p-6 flex flex-col gap-2">
       <div>
@@ -32,10 +40,16 @@ const GridCard = ({ image, title, description, raised, goal }) => {
       <div className="flex items-center border border-[#dadada] p-0.5 rounded-full w-full">
         <div className="w-1/4 h-2 bg-[#16a91b] rounded-full"></div>
       </div>
-      <Link className="border mt-4 rounded-full px-6 text-center py-3 bg-black text-white">
+      <Link
+        to={to}
+        className="border mt-4 rounded-full px-6 text-center py-3 transition duration-300 text-white bg-blue-600 hover:bg-blue-800"
+      >
         Donate Now
       </Link>
-      <Link className="border rounded-full px-6 py-3 text-center bg-[#d0d0d0] text-black border-[#dadada]">
+      <Link
+        to={projectLink}
+        className="border rounded-full px-6 py-3 text-center bg-white lg:bg-[#d0d0d0] transition duration-300 hover:bg-white text-black border-[#dadada]"
+      >
         View Project
       </Link>
     </div>

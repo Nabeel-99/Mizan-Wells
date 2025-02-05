@@ -2,17 +2,17 @@ export const questions = [
   {
     question: "Can I track the progress of my donation?",
     answer:
-      "Yes, you’ll receive updates on the project’s progress. You can track how your donation is helping to bring clean water, shelter, or education to those in need.",
+      "Yes, you’ll receive updates on the progress. You can track how your donation is making a real impact and transforming lives.",
   },
   {
     question: "How can I get involved beyond donations?",
     answer:
-      "There are several ways you can help, including volunteering with our initiatives, spreading awareness about our projects, or starting your own fundraising campaign. Visit our 'Get Involved' page for more details.",
+      "There are several ways you can help, including volunteering with our initiatives, spreading awareness about our projects, or starting your own fundraising campaign. Feel free to reach out to us directly through our 'Contact' page.",
   },
   {
     question: "How can I volunteer?",
     answer:
-      "You can volunteer by reaching out to us directly through our 'Contact Us' page. We will provide you with the best opportunities to get involved based on your skills and interests.",
+      "You can volunteer by reaching out to us directly through our 'Contact' page. We will provide you with the best opportunities to get involved based on your skills and interests.",
   },
   {
     question: "Are donations secure?",

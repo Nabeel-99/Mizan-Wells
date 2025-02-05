@@ -1,11 +1,11 @@
 import React from "react";
-import { FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { RiTwitterXLine } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <div className=" p-10 lg:p-20 w-full 2xl:container 2xl:mx-auto  flex flex-col gap-10 items-start lg:items-baseline justify-between  ">
+    <footer className=" p-10 lg:p-20 w-full 2xl:container 2xl:mx-auto  flex flex-col gap-10 items-start lg:items-baseline justify-between  ">
       <div className="flex 2xl:container 2xl:mx-auto w-full justify-between  lg:flex-row flex-col gap-10">
         <div className="font-satoshi-bold flex gap-4 flex-col items-start  lg:items-center  text-xl">
           Mizan Wells
@@ -26,7 +26,7 @@ const Footer = () => {
               </Link>
               <Link
                 className="transition duration-300 hover:text-blue-600"
-                to={"/services"}
+                to={"/projects"}
               >
                 <li>Projects</li>
               </Link>
@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="border-t pb-44 border-t-[#dcdcdc] h-1 w-full flex flex-col lg:flex-row justify-between items-start lg:items-center">
+      <div className="border-t pb-44 lg:pb-10 border-t-[#dcdcdc] h-1 w-full flex flex-col lg:flex-row justify-between items-start lg:items-center">
         <div className="pt-8">
           <p className="text-[#6d6d6d]">
             &copy; Mizan Wells 2025. All Rights Reserved.
@@ -64,7 +64,7 @@ const Footer = () => {
           <RiTwitterXLine className="text-xl" />
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
