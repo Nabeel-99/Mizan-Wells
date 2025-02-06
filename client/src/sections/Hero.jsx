@@ -6,7 +6,7 @@ import FadeInEffect from "../components/FadeInEffect";
 const Hero = () => {
   return (
     <div className="flex flex-col lg:flex-row relative justify-between gap-10 w-full">
-      <FadeInEffect>
+      <FadeInEffect translateY={40}>
         <div className="flex flex-col text-center lg:text-left lg:w-1/3 gap-4">
           <h3 className="text-3xl lg:text-6xl  xl:text-8xl font-satoshi-bold tracking-tight">
             A Better Tomorrow Starts with Your Support

@@ -28,6 +28,12 @@ const LargeNavbar = () => {
           About
         </Link>
         <Link
+          to={"/contact"}
+          className="border rounded-full px-4 py-2 transition duration-300 bg-white text-black hover:bg-blue-800 hover:text-white hover:border-blue-800 border-[#dadada]"
+        >
+          Contact
+        </Link>
+        <Link
           to={"/start-project"}
           className="border rounded-full px-4 py-2 transition duration-300 bg-white text-black hover:bg-blue-800 hover:text-white hover:border-blue-800 border-[#dadada]"
         >

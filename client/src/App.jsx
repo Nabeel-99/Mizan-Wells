@@ -8,6 +8,8 @@ import ProjectDetails from "./pages/ProjectDetails";
 import ScrollToTop from "./components/ScrollToTop";
 import Donate from "./pages/Donate";
 import DonateForm from "./pages/DonateForm";
+import Contact from "./pages/Contact";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
       <div className="flex flex-col h-full 2xl:container 2xl:mx-auto  w-full lg:p-10 lg:px-10">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route
             path="/projects"
             element={
@@ -49,6 +52,15 @@ function App() {
               <>
                 <ScrollToTop />
                 <ProjectDetails />
+              </>
+            }
+          />
+          <Route
+            path="/contact"
+            element={
+              <>
+                <ScrollToTop />
+                <Contact />
               </>
             }
           />
