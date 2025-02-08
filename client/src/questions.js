@@ -24,4 +24,13 @@ export const questions = [
     answer:
       "Yes! In addition to monetary donations, we welcome contributions of materials, supplies, or professional skills. Please contact us for more information on how you can help.",
   },
+  {
+    question: "How long does it take to review a project?",
+    answer: "We typically respond within 3-5 business days.",
+  },
+  {
+    question: "What happens after my project is approved?",
+    answer:
+      "Your project will be featured on our platform, and you’ll receive updates on its progress.",
+  },
 ];

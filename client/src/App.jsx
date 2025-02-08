@@ -10,6 +10,7 @@ import Donate from "./pages/Donate";
 import DonateForm from "./pages/DonateForm";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
+import StartProject from "./pages/StartProject";
 
 function App() {
   return (
@@ -52,6 +53,15 @@ function App() {
               <>
                 <ScrollToTop />
                 <ProjectDetails />
+              </>
+            }
+          />
+          <Route
+            path="/start-project"
+            element={
+              <>
+                <ScrollToTop />
+                <StartProject />
               </>
             }
           />

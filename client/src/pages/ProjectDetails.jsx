@@ -4,6 +4,8 @@ import { Link, useParams } from "react-router-dom";
 import { projects } from "../projects";
 import CTA from "../sections/CTA";
 import FadeInEffect from "../components/FadeInEffect";
+import ProjectPhase from "../components/ProjectPhase";
+import { phases } from "../phases";
 
 const ProjectDetails = () => {
   const { id } = useParams();
@@ -42,6 +44,9 @@ const ProjectDetails = () => {
             className="h-full w-full object-cover rounded-4xl"
           />
         </div>
+      </FadeInEffect>
+      <FadeInEffect delay={0.2}>
+        <ProjectPhase phases={phases} />
       </FadeInEffect>
       <FadeInEffect delay={0.2}>
         <div className="flex flex-col xl:flex-row w-full  gap-10">

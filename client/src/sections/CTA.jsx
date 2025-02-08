@@ -17,10 +17,16 @@ const CTA = ({ marginTop = "mt-44" }) => {
             Your support can bring lasting change to communities in need.
           </p>
           <div className="flex flex-col lg:flex-row items-center mt-10 gap-6">
-            <Link className="border rounded-full w-full text-center lg:w-auto px-6 py-3 border-[#212121] bg-black transition duration-300 hover:bg-blue-600 hover:border-blue-600 text-white">
+            <Link
+              to={"/donate"}
+              className="border rounded-full w-full text-center lg:w-auto px-6 py-3 border-[#212121] bg-black transition duration-300 hover:bg-blue-600 hover:border-blue-600 text-white"
+            >
               Donate Now
             </Link>
-            <Link className="border rounded-full  text-center w-full lg:w-auto px-6 py-3 border-[#ffffff] bg-white hover:bg-[#dddddd] transition duration-300 hover:border-[#dadada] text-black">
+            <Link
+              to={"/contact"}
+              className="border rounded-full  text-center w-full lg:w-auto px-6 py-3 border-[#ffffff] bg-white hover:bg-[#dddddd] transition duration-300 hover:border-[#dadada] text-black"
+            >
               Become a Volunteer
             </Link>
           </div>
