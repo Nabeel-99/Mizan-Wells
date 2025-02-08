@@ -51,10 +51,10 @@ const ProjectDetails = () => {
       <FadeInEffect delay={0.2}>
         <div className="flex flex-col xl:flex-row w-full  gap-10">
           <div className="flex xl:w-2/3 flex-col gap-2">
-            <p>{details.description}</p>
             <h3 className="font-satoshi-bold text-xl lg:text-4xl">
               The Difference You Can Make
             </h3>
+            <p>{details.description}</p>
             <p>{details.descriptionTwo}</p>
             <p>
               <span className="font-satoshi-bold">{details.quoteSpan} </span>"
