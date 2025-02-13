@@ -54,7 +54,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-family: "Satoshi-Regular";
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 @media screen and (max-width: 768px) {
   body {

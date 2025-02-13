@@ -1,5 +1,10 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
@@ -11,15 +16,27 @@ import DonateForm from "./pages/DonateForm";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import StartProject from "./pages/StartProject";
+import Admin from "./pages/Admin";
+import MaybeShowComponent from "./components/MaybeShowComponent";
 
 function App() {
+  const location = useLocation();
   return (
-    <Router>
-      <Navbar />
-      <div className="flex flex-col h-full 2xl:container 2xl:mx-auto  w-full lg:p-10 lg:px-10">
+    <>
+      <MaybeShowComponent>
+        <Navbar />
+      </MaybeShowComponent>
+      <div
+        className={`flex flex-col h-full  w-full ${
+          location.pathname === "/admin"
+            ? "lg:p-0"
+            : "lg:p-[4rem] 2xl:container 2xl:mx-auto"
+        }`}
+      >
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/admin" element={<Admin />} />
           <Route
             path="/projects"
             element={
@@ -76,8 +93,10 @@ function App() {
           />
         </Routes>
       </div>
-      <Footer />
-    </Router>
+      <MaybeShowComponent>
+        <Footer />
+      </MaybeShowComponent>
+    </>
   );
 }
 

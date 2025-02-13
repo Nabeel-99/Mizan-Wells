@@ -17,7 +17,7 @@ const Navbar = () => {
     }
   }, [isBurgerMenu]);
   return (
-    <nav className="2xl:container 2xl:mx-auto flex w-full justify-between lg:px-10 items-center">
+    <nav className="2xl:container 2xl:mx-auto mt-[2rem]  flex w-full justify-between lg:px-10 items-center">
       <LargeNavbar />
       <MobileNavbar toggleMenu={toggleMenu} isBurgerMenu={isBurgerMenu} />
       {isBurgerMenu && (

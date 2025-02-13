@@ -4,6 +4,7 @@ import Imagetest from "../assets/images/phase1.jpg";
 import Imagetest2 from "../assets/images/phase2.jpg";
 import Imagetest3 from "../assets/images/phase3.jpeg";
 import { useState } from "react";
+import { Tab } from "@mui/material";
 
 export default function ProjectPhaseCarousel() {
   const [value, setValue] = useState(0);
@@ -50,12 +51,15 @@ export default function ProjectPhaseCarousel() {
         indicatorColor="none"
       >
         {images.map((image, index) => (
-          <img
-            src={image}
-            alt=""
+          <Tab
             key={index}
-            className="object-cover w-full h-[400px] rounded-xl"
-            // onClick={() => openImage(index)}
+            icon={
+              <img
+                src={image}
+                alt=""
+                className="object-cover w-full h-[400px] rounded-xl"
+              />
+            }
           />
         ))}
       </Tabs>

@@ -31,11 +31,11 @@ const Hero = () => {
         </div>
       </FadeInEffect>
 
-      <div className="order-first lg:order-none overflow-hidden lg:absolute lg:w-1/2  z-0 right-0 -top-24">
+      <div className="order-first lg:order-none overflow-hidden lg:absolute lg:w-1/2  z-0 right-0 -top-28">
         <img
           src={HeroImage}
           alt=""
-          className="w-full h-[35rem] lg:h-[44rem] overflow-hidden object-cover rounded-4xl"
+          className="w-full h-[35rem] lg:h-[50rem] overflow-hidden object-cover rounded-4xl"
         />
       </div>
     </div>

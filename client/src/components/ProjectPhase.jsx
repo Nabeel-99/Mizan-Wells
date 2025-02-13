@@ -19,7 +19,7 @@ const ProjectPhase = ({ phases }) => {
             </h3>
             <ProjectPhaseCarousel />
             <div className="flex flex-col xl:flex-row xl:justify-between gap-10 p-6 xl:p-10">
-              <div className="flex flex-col xl:sticky top-10 h-full xl:p-4 xl:w-1/2 mt-10 rounded-xl gap-4">
+              <div className="flex flex-col xl:sticky top-10 h-full xl:p-4 xl:w-1/2  rounded-xl gap-4">
                 <div className="flex gap-3 border-b border-b-[#d7d7d7] pb-3">
                   <span className="font-satoshi-bold ">Status</span>
                   <p>{phase.status}</p>
