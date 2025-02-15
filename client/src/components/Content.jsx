@@ -1,11 +1,12 @@
 import React from "react";
-import Dashboard from "../pages/Dashboard";
 
-const Content = () => {
+const Content = ({ renderCurrentView, getCurrentViewName }) => {
   return (
-    <div className="flex flex-col h-screen p-6 gap-6  w-full">
-      Dashboard
-      <Dashboard />
+    <div className="flex flex-col h-screen lg:ml-64 lg:p-6 gap-6  w-full">
+      <h2 className="font-satoshi-bold hidden lg:block">
+        {getCurrentViewName()}
+      </h2>
+      {renderCurrentView()}
     </div>
   );
 };

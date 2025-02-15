@@ -28,7 +28,7 @@ function App() {
       </MaybeShowComponent>
       <div
         className={`flex flex-col h-full  w-full ${
-          location.pathname === "/admin"
+          location.pathname.startsWith("/admin")
             ? "lg:p-0"
             : "lg:p-[4rem] 2xl:container 2xl:mx-auto"
         }`}
@@ -36,7 +36,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/admin" element={<Admin />} />
+          <Route path="/admin/*" element={<Admin />} />
           <Route
             path="/projects"
             element={
