@@ -25,6 +25,10 @@ const ProjectPhase = ({ phases }) => {
                   <p>{phase.status}</p>
                 </div>
                 <div className="flex gap-3 border-b border-b-[#d7d7d7] pb-3">
+                  <span className="font-satoshi-bold ">Location</span>
+                  <p>{phase.location}</p>
+                </div>
+                <div className="flex gap-3 border-b border-b-[#d7d7d7] pb-3">
                   <span className="font-satoshi-bold ">Phase Start Date</span>
                   <p>{phase.startDate}</p>
                 </div>

@@ -5,6 +5,7 @@ export const phases = [
     startDate: "2nd January, 2025",
     estimatedEndDate: "8th August, 2025",
     amountSpent: "₦200,000",
+    location: "Abuja, Wuse 2 Shuaibu Street",
     phaseDetails: [
       "Excavation completed as of Jan 25, 2025.",
       "Materials sourced and delivered by Feb 1, 2025.",
@@ -17,6 +18,7 @@ export const phases = [
     startDate: "10th February, 2025",
     estimatedEndDate: "15th August, 2025",
     amountSpent: "₦450,000",
+    location: "Abuja, Wuse 2 Shuaibu Street",
     phaseDetails: [
       "Construction of the foundation walls started.",
       "Reinforcement materials installed in foundation trenches.",
@@ -29,6 +31,7 @@ export const phases = [
     startDate: "1st March, 2025",
     estimatedEndDate: "20th September, 2025",
     amountSpent: "₦800,000",
+    location: "Abuja, Wuse 2 Shuaibu Street",
     phaseDetails: [
       "Plumbing installation completed.",
       "Roof trusses and framework set.",
