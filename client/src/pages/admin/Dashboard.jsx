@@ -1,7 +1,7 @@
 import React from "react";
-import StatsCard from "../components/StatsCard";
-import OngoingCard from "../components/OngoingCard";
-import DonationsCard from "../components/DonationsCard";
+import StatsCard from "../../components/cards/StatsCard";
+import OngoingCard from "../../components/cards/OngoingCard";
+import DonationsCard from "../../components/cards/DonationsCard";
 
 const Dashboard = () => {
   return (

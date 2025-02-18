@@ -1,7 +1,7 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 
-const ProjectProcess = ({ number, text, showArrow = true }) => {
+const ProjectProcessCard = ({ number, text, showArrow = true }) => {
   return (
     <>
       <div className="rounded-full p-3 w-16 h-16 lg:w-20 lg:h-20 flex items-center justify-center bg-blue-400 text-white font-satoshi-bold text-lg lg:text-xl">
@@ -17,4 +17,4 @@ const ProjectProcess = ({ number, text, showArrow = true }) => {
   );
 };
 
-export default ProjectProcess;
+export default ProjectProcessCard;

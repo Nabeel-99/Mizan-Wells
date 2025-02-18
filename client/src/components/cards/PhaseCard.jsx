@@ -37,9 +37,12 @@ const PhaseCard = () => {
             <FaEye className="text-sm" />
           </Link>
 
-          <button className="border border-[#d7d7d7] text-black px-4 py-3 rounded-lg">
+          <Link
+            to={"/admin/projects/view/phase/edit-phase"}
+            className="border border-[#d7d7d7] text-black px-4 py-3 rounded-lg"
+          >
             <FaEdit className="text-sm" />
-          </button>
+          </Link>
         </div>
       </div>
     </div>

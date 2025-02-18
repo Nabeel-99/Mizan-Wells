@@ -1,6 +1,6 @@
 import React from "react";
-import ProjectPhaseCarousel from "./ProjectPhaseCarousel";
-import FadeInEffect from "./FadeInEffect";
+import ProjectPhaseCarousel from "./ui/ProjectPhaseCarousel";
+import FadeInEffect from "./ui/FadeInEffect";
 
 const ProjectPhase = ({ phases }) => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLightbulb } from "react-icons/fa";
-import CTA from "../sections/CTA";
-import Faq from "../sections/Faq";
+import CTA from "../../sections/CTA";
+import Faq from "../../sections/Faq";
 import FeaturedCards from "../components/FeaturedCards";
 import FadeInEffect from "../components/FadeInEffect";
 

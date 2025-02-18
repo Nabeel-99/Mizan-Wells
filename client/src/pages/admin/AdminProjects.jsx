@@ -1,13 +1,13 @@
 import React from "react";
 import { FaPlus } from "react-icons/fa";
-import MobileProjectsCard from "../components/MobileProjectsCard";
-import ProjectsTable from "../components/ProjectsTable";
+import MobileProjectsCard from "../../components/cards/MobileProjectsCard";
+import ProjectsTable from "../../components/ProjectsTable";
 import { Link } from "react-router-dom";
 
 const AdminProjects = () => {
   return (
-    <div className="flex flex-col w-full mt-20 lg:mt-0 h-full gap-6">
-      <div className="flex justify-between px-4 lg:px-0 gap-4 lg:gap-10 w-full">
+    <div className="flex flex-col w-full mt-20 md:px-4 lg:px-0 lg:mt-0 h-full gap-6">
+      <div className="flex justify-between  gap-4 lg:gap-10 w-full">
         <input
           className="w-full rounded-lg px-4 py-2 border border-[#d7d7d7]"
           placeholder="Search project"
@@ -20,7 +20,7 @@ const AdminProjects = () => {
         </Link>
         <Link
           to={"/admin/projects/create"}
-          className="bg-black lg:hidden text-white px-4  text-center p-2 rounded-lg"
+          className="bg-black lg:hidden text-white px-4 flex items-center justify-center  text-center p-2 rounded-lg"
         >
           <FaPlus className="" />
         </Link>

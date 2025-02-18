@@ -1,5 +1,6 @@
 import React from "react";
 import { FaEye, FaTrash } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const MobileProjectsCard = () => {
   return (
@@ -32,9 +33,12 @@ const MobileProjectsCard = () => {
           </p>
         </div>
         <div className="flex items-center gap-2">
-          <button className=" border border-[#d7d7d7] text-black px-4 py-3 rounded-lg">
+          <Link
+            to={"/admin/projects/view"}
+            className=" border border-[#d7d7d7] text-black px-4 py-3 rounded-lg"
+          >
             <FaEye className="text-sm" />
-          </button>
+          </Link>
 
           <button className="border border-[#d7d7d7] text-black px-4 py-3 rounded-lg">
             <FaTrash className="text-sm" />

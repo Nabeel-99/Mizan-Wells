@@ -1,16 +1,17 @@
 import React, { useEffect, useState } from "react";
-import SideBar from "../components/SideBar";
-import Content from "../components/Content";
+import SideBar from "../../components/layout/SideBar";
+import Content from "../../components/layout/Content";
 import Dashboard from "./Dashboard";
 import { Route, Routes, useLocation } from "react-router-dom";
 import AdminProjects from "./AdminProjects";
-import Settings from "./Settings";
+import Settings from "../Settings";
 import { CiMenuFries } from "react-icons/ci";
 import { AiOutlineClose } from "react-icons/ai";
-import MobileSideMenu from "../components/MobileSideMenu";
-import Create from "./Create";
-import View from "./View";
-import ViewPhase from "./ViewPhase";
+import MobileSideMenu from "../../components/ui/MobileSideMenu";
+import Create from "../project/Create";
+import View from "../project/View";
+import ViewPhase from "../ViewPhase";
+import PhaseForm from "../../components/forms/PhaseForm";
 
 const Admin = () => {
   const [isSideBar, setIsSideBar] = useState(false);
@@ -35,6 +36,8 @@ const Admin = () => {
         <Route path="projects/create" element={<Create />} />
         <Route path="projects/view" element={<View />} />
         <Route path="projects/view/phase" element={<ViewPhase />} />
+        <Route path="projects/view/phase/add-phase" element={<PhaseForm />} />
+        <Route path="projects/view/phase/edit-phase" element={<PhaseForm />} />
       </Routes>
     );
   };
@@ -47,6 +50,10 @@ const Admin = () => {
     if (location.pathname === "/admin/projects/view") return "Project Details";
     if (location.pathname === "/admin/projects/view/phase")
       return "Project Phase";
+    if (location.pathname === "/admin/projects/view/phase/add-phase")
+      return "Add Phase";
+    if (location.pathname === "/admin/projects/view/phase/edit-phase")
+      return "Edit Phase";
   };
   return (
     <div className="flex">

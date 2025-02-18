@@ -1,8 +1,8 @@
 import Tabs from "@mui/material/Tabs";
 import Box from "@mui/material/Box";
-import Imagetest from "../assets/images/phase1.jpg";
-import Imagetest2 from "../assets/images/phase2.jpg";
-import Imagetest3 from "../assets/images/phase3.jpeg";
+import Imagetest from "../../assets/images/phase1.jpg";
+import Imagetest2 from "../../assets/images/phase2.jpg";
+import Imagetest3 from "../../assets/images/phase3.jpeg";
 import { useState } from "react";
 import { Tab } from "@mui/material";
 

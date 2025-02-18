@@ -1,6 +1,6 @@
 import React from "react";
-import Faq from "../sections/Faq";
-import CTA from "../sections/CTA";
+import Faq from "../../sections/Faq";
+import CTA from "../../sections/CTA";
 import FadeInEffect from "../components/FadeInEffect";
 import { motion } from "motion/react";
 import ProjectForm from "../components/ProjectForm";

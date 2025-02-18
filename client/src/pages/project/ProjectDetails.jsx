@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { FaLightbulb } from "react-icons/fa";
 import { Link, useParams } from "react-router-dom";
-import { projects } from "../projects";
-import CTA from "../sections/CTA";
-import FadeInEffect from "../components/FadeInEffect";
-import ProjectPhase from "../components/ProjectPhase";
-import { phases } from "../phases";
+import { projects } from "../../projects";
+import CTA from "../../sections/CTA";
+import FadeInEffect from "../../components/ui/FadeInEffect";
+import ProjectPhase from "../../components/ProjectPhase";
+import { phases } from "../../phases";
 
 const ProjectDetails = () => {
   const { id } = useParams();

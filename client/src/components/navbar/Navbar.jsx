@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import LargeNavbar from "./LargeNavbar";
 import MobileNavbar from "./MobileNavbar";
-import BurgerMenu from "./BurgerMenu";
+import BurgerMenu from "../ui/BurgerMenu";
 
 const Navbar = () => {
   const [isBurgerMenu, setIsBurgerMenu] = useState(false);

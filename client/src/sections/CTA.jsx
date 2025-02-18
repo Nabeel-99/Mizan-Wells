@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CommentCard from "../components/CommentCard";
-import FadeInEffect from "../components/FadeInEffect";
+import CommentCard from "../components/cards/CommentCard";
+import FadeInEffect from "../components/ui/FadeInEffect";
 
 const CTA = ({ marginTop = "mt-44" }) => {
   return (
