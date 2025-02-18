@@ -1,10 +1,10 @@
 import React from "react";
 import Faq from "../../sections/Faq";
 import CTA from "../../sections/CTA";
-import FadeInEffect from "../components/FadeInEffect";
+import FadeInEffect from "../../components/ui/FadeInEffect";
 import { motion } from "motion/react";
-import ProjectForm from "../components/ProjectForm";
-import ProjectProcess from "../components/ProjectProcess";
+import ProjectForm from "../../components/forms/ProjectForm";
+import ProjectProcessCard from "../../components/cards/ProjectProcessCard";
 
 const StartProject = () => {
   return (
@@ -27,12 +27,12 @@ const StartProject = () => {
               </motion.p>
               <FadeInEffect translateY={20} delay={0.5}>
                 <div className="flex flex-col xl:flex-row justify-center items-center gap-4">
-                  <ProjectProcess
+                  <ProjectProcessCard
                     number={"1"}
                     text={"Submit Your Project Idea"}
                   />
-                  <ProjectProcess number={"2"} text={"Project Review"} />
-                  <ProjectProcess
+                  <ProjectProcessCard number={"2"} text={"Project Review"} />
+                  <ProjectProcessCard
                     number={"3"}
                     text={"Project Launch"}
                     showArrow={false}

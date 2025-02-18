@@ -10,7 +10,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import MobileSideMenu from "../../components/ui/MobileSideMenu";
 import Create from "../project/Create";
 import View from "../project/View";
-import ViewPhase from "../ViewPhase";
+import ViewPhase from "../project/ViewPhase";
 import PhaseForm from "../../components/forms/PhaseForm";
 
 const Admin = () => {

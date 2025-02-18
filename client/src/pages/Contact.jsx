@@ -1,8 +1,8 @@
 import React from "react";
 import { FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import ContactForm from "../components/ContactForm";
-import FadeInEffect from "../components/FadeInEffect";
+import ContactForm from "../components/forms/ContactForm";
+import FadeInEffect from "../components/ui/FadeInEffect";
 import { motion } from "motion/react";
 import Faq from "../sections/Faq";
 import { FiPhone } from "react-icons/fi";

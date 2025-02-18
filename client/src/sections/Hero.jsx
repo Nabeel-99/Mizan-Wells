@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { GoArrowRight } from "react-icons/go";
 import HeroImage from "../assets/images/heroimg.jpg";
-import FadeInEffect from "../components/FadeInEffect";
+import FadeInEffect from "../components/ui/FadeInEffect";
 const Hero = () => {
   return (
     <div className="flex flex-col lg:flex-row relative justify-between gap-10 w-full">

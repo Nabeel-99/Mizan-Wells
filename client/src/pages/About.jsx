@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGlobeAfrica } from "react-icons/fa";
-import FadeInEffect from "../components/FadeInEffect";
+import FadeInEffect from "../components/ui/FadeInEffect";
 import AboutImage from "../assets/images/about.jpg";
 import { Link } from "react-router-dom";
 import CTA from "../sections/CTA";
@@ -8,7 +8,7 @@ import { IoMdHeart } from "react-icons/io";
 import { FaLightbulb } from "react-icons/fa";
 import { FaShield } from "react-icons/fa6";
 
-import AboutCard from "../components/AboutCard";
+import AboutCard from "../components/cards/AboutCard";
 const About = () => {
   return (
     <div className="flex flex-col gap-14 h-full mt-20 lg:mt-10">

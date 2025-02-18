@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Faq from "../sections/Faq";
 import { useParams } from "react-router-dom";
 import { projects } from "../projects";
-import FadeInEffect from "../components/FadeInEffect";
+import FadeInEffect from "../components/ui/FadeInEffect";
 
 const DonateForm = () => {
   const { id } = useParams();

@@ -1,8 +1,8 @@
 import React from "react";
 import GridCard from "./GridCard";
-import Empowerment from "../assets/images/student.jpg";
-import Well from "../assets/images/well.jpeg";
-import Shelter from "../assets/images/homeless.jpg";
+import Empowerment from "../../assets/images/student.jpg";
+import Well from "../../assets/images/well.jpeg";
+import Shelter from "../../assets/images/homeless.jpg";
 
 const FeaturedCards = () => {
   return (

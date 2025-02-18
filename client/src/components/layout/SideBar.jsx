@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AppLogo from "../assets/images/logo.png";
+import AppLogo from "../../assets/images/logo.png";
 const SideBar = () => {
   return (
     <div className="hidden lg:flex fixed bg-white  flex-col w-64 border-r border-r-[#e8e8e8] h-screen">

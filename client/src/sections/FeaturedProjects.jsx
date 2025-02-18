@@ -1,6 +1,6 @@
 import React from "react";
-import FeaturedCards from "../components/FeaturedCards";
-import FadeInEffect from "../components/FadeInEffect";
+import FeaturedCards from "../components/cards/FeaturedCards";
+import FadeInEffect from "../components/ui/FadeInEffect";
 const FeaturedProjects = () => {
   return (
     <div className="flex flex-col gap-10 mt-10 lg:mt-44">

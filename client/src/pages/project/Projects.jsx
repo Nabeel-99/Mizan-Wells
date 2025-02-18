@@ -2,8 +2,8 @@ import React from "react";
 import { FaLightbulb } from "react-icons/fa";
 import CTA from "../../sections/CTA";
 import Faq from "../../sections/Faq";
-import FeaturedCards from "../components/FeaturedCards";
-import FadeInEffect from "../components/FadeInEffect";
+import FeaturedCards from "../../components/cards/FeaturedCards";
+import FadeInEffect from "../../components/ui/FadeInEffect";
 
 const Projects = () => {
   return (

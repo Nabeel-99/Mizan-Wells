@@ -1,6 +1,6 @@
 import React from "react";
-import AccordionCard from "../components/AccordionCard";
-import FadeInEffect from "../components/FadeInEffect";
+import AccordionCard from "../components/cards/AccordionCard";
+import FadeInEffect from "../components/ui/FadeInEffect";
 
 const Faq = ({ marginTop = "mt-44" }) => {
   return (

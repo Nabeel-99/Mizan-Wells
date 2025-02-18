@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectPhaseCarousel from "../components/ui/ProjectPhaseCarousel";
+import ProjectPhaseCarousel from "../../components/ui/ProjectPhaseCarousel";
 
 const ViewPhase = () => {
   return (

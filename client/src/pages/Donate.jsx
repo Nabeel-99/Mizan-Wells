@@ -1,5 +1,5 @@
 import React from "react";
-import FeaturedCards from "../components/FeaturedCards";
+import FeaturedCards from "../components/cards/FeaturedCards";
 import Faq from "../sections/Faq";
 
 const Donate = () => {

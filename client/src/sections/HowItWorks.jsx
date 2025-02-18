@@ -1,9 +1,9 @@
 import React from "react";
-import ProcessCard from "../components/ProcessCard";
+import ProcessCard from "../components/cards/ProcessCard";
 import ProcessOne from "../assets/images/process1.jpeg";
 import ProcessTwo from "../assets/images/process2.jpg";
 import ProcessThree from "../assets/images/process3.jpg";
-import FadeInEffect from "../components/FadeInEffect";
+import FadeInEffect from "../components/ui/FadeInEffect";
 const HowItWorks = () => {
   return (
     <div className="flex flex-col gap-10 lg:flex-row justify-between w-full h-full mt-10 lg:mt-44">
