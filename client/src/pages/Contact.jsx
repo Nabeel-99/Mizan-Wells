@@ -46,14 +46,19 @@ const Contact = () => {
                       <p>Our Contact</p>
                     </div>
                   </div>
-                  <Link className="border p-4 w-full bg-[#ececec] border-[#ececec]  font-satoshi-bold   rounded-full">
-                    Email: ufi@gmail.com
+                  <Link className="border p-4 w-full bg-[#ececec] border-[#ececec]     rounded-full">
+                    Email:{" "}
+                    <span className="font-satoshi-bold">ufi@gmail.com</span>
                   </Link>
-                  <div className="border p-4 w-full bg-[#ececec] border-[#ececec]  font-satoshi-bold   rounded-full">
-                    Phone: 09166580000/0901 900 9430
+                  <div className="border p-4 w-full bg-[#ececec] border-[#ececec]     rounded-full">
+                    Phone:{" "}
+                    <span className="font-satoshi-bold">
+                      09166580000/0901 900 9430
+                    </span>
                   </div>
-                  <div className="border p-4 w-full bg-[#ececec] border-[#ececec]  font-satoshi-bold   rounded-full">
-                    Address: Wuse 2, Abuja.
+                  <div className="border p-4 w-full bg-[#ececec] border-[#ececec]    rounded-full">
+                    Address:{" "}
+                    <span className="font-satoshi-bold">Wuse 2, Abuja.</span>
                   </div>
                   <div className="flex items-center gap-6">
                     <Link

@@ -79,14 +79,14 @@ const ProjectDetails = () => {
                   <h3 className="text-lg">Raised</h3>
                   <p className="font-satoshi-bold text-xl">
                     {"\u20A6"}
-                    50,000
+                    {details.raised}
                   </p>
                 </div>
                 <div className="flex flex-col gap-3">
                   <h3 className="text-lg">Goal</h3>
                   <p className="font-satoshi-bold text-xl">
                     {"\u20A6"}
-                    5,000,000
+                    {details.goal}
                   </p>
                 </div>
               </div>
@@ -97,7 +97,7 @@ const ProjectDetails = () => {
 
             <div className="flex flex-col gap-1 p-6 border-b-[#dadada] border-b">
               <p className="text-xl">Donors</p>
-              <p className="font-satoshi-bold text-2xl">50</p>
+              <p className="font-satoshi-bold text-2xl">{details.donors}</p>
             </div>
             <div className="flex flex-col gap-1 p-6 ">
               <Link

@@ -15,7 +15,7 @@ export const projects = [
     quote:
       "The example of those who spend their wealth in the cause of Allah is that of a grain that sprouts into seven ears, each bearing one hundred grains. And Allah multiplies ˹the reward even more˺ to whoever He wills. For Allah is All-Bountiful, All-Knowing.",
     raised: "50,000",
-    Goal: "5,000,000",
+    goal: "5,000,000",
     donors: "50",
     to: "/donate/feed-the-poor",
   },
@@ -31,7 +31,7 @@ export const projects = [
     quote:
       "If a Muslim plants a tree or sows seeds, and then a bird, or a person, or an animal eats from it, it is regarded as a charitable gift (Sadaqah) for him.",
     raised: "50,000",
-    Goal: "5,000,000",
+    goal: "5,000,000",
     donors: "50",
     to: "/donate/village-wells-project",
   },
@@ -47,7 +47,7 @@ export const projects = [
     quote:
       "Whoever relieves a believer’s distress in this world, Allah will relieve his distress on the Day of Judgment.",
     raised: "50,000",
-    Goal: "5,000,000",
+    goal: "5,000,000",
     donors: "50",
     to: "/donate/shelter-and-support",
   },
@@ -63,7 +63,7 @@ export const projects = [
     quote:
       "If a Muslim plants a tree or sows seeds, and then a bird, or a person, or an animal eats from it, it is regarded as a charitable gift (Sadaqah) for him.",
     raised: "1,250,000",
-    Goal: "10,000,000",
+    goal: "10,000,000",
     donors: "150",
     to: "/donate/trees-for-future-generations",
   },

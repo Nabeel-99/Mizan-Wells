@@ -7,7 +7,8 @@ import CTA from "../sections/CTA";
 import { IoMdHeart } from "react-icons/io";
 import { FaLightbulb } from "react-icons/fa";
 import { FaShield } from "react-icons/fa6";
-
+import Partner1 from "../assets/images/partner1.JPG";
+import Partner2 from "../assets/images/partner2.jpg";
 import AboutCard from "../components/cards/AboutCard";
 const About = () => {
   return (
@@ -64,6 +65,25 @@ const About = () => {
             faith-driven movement dedicated to building a future filled with
             hope, dignity, and opportunity for all.
           </p>
+        </div>
+      </FadeInEffect>
+      <FadeInEffect>
+        <div className="flex flex-col items-center gap-4">
+          <h3 className="text-3xl text-center lg:text-left lg:text-4xl font-satoshi-bold">
+            Partners We Work With
+          </h3>
+          <div className=" rounded-xl  border-transparent lg:p-10 bg-gradient-to-b from-[#e9e9e953] to-transparent p-6 flex items-center justify-center gap-10">
+            <img
+              src={Partner1}
+              alt=""
+              className="w-32 h-32 object-cover rounded-full"
+            />
+            <img
+              src={Partner2}
+              alt=""
+              className="w-32 h-32 object-cover rounded-full"
+            />
+          </div>
         </div>
       </FadeInEffect>
       <FadeInEffect>
