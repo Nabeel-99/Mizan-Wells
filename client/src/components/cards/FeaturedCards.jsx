@@ -24,8 +24,8 @@ const FeaturedCards = () => {
         description={
           "Build sustainable water wells in rural communities to provide access to clean and safe drinking water."
         }
-        goal={"2,000,000"}
-        raised={"450,000"}
+        goal={"8,000,000"}
+        raised={"5,700,000"}
         to={"/donate/village-wells-project"}
         projectLink={"/project-details/village-wells-project"}
       />
@@ -47,7 +47,7 @@ const FeaturedCards = () => {
           "Plant trees in deforested areas to combat climate change, improve air quality, and restore ecosystems. A lasting act of charity for future generations."
         }
         goal={"10,000,000"}
-        raised={"1,250,000"}
+        raised={"4,200,000"}
         to={"/donate/trees-for-future-generations"}
         projectLink={"/project-details/trees-for-future-generations"}
       />

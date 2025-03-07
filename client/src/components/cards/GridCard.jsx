@@ -38,7 +38,16 @@ const GridCard = ({
         </div>
       </div>
       <div className="flex items-center border border-[#dadada] p-0.5 rounded-full w-full">
-        <div className="w-1/4 h-2 bg-[#16a91b] rounded-full"></div>
+        <div
+          style={{
+            width: `${
+              (Number(raised.replace(/,/g, "")) /
+                Number(goal.replace(/,/g, ""))) *
+              100
+            }%`,
+          }}
+          className="h-2 bg-[#16a91b] rounded-full"
+        />
       </div>
       <Link
         to={to}
