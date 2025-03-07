@@ -30,8 +30,8 @@ export const projects = [
     quoteSpan: "Sahih al-Bukhari",
     quote:
       "If a Muslim plants a tree or sows seeds, and then a bird, or a person, or an animal eats from it, it is regarded as a charitable gift (Sadaqah) for him.",
-    raised: "50,000",
-    goal: "5,000,000",
+    raised: "5,700,000",
+    goal: "8,000,000",
     donors: "50",
     to: "/donate/village-wells-project",
   },
@@ -46,8 +46,8 @@ export const projects = [
     quoteSpan: "Sahih Muslim",
     quote:
       "Whoever relieves a believer’s distress in this world, Allah will relieve his distress on the Day of Judgment.",
-    raised: "50,000",
-    goal: "5,000,000",
+    raised: "820,000",
+    goal: "9,000,000",
     donors: "50",
     to: "/donate/shelter-and-support",
   },
@@ -62,7 +62,7 @@ export const projects = [
     quoteSpan: "Sahih Bukhari",
     quote:
       "If a Muslim plants a tree or sows seeds, and then a bird, or a person, or an animal eats from it, it is regarded as a charitable gift (Sadaqah) for him.",
-    raised: "1,250,000",
+    raised: "4,200,000",
     goal: "10,000,000",
     donors: "150",
     to: "/donate/trees-for-future-generations",

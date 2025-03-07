@@ -91,7 +91,17 @@ const ProjectDetails = () => {
                 </div>
               </div>
               <div className="flex items-center border border-[#dadada] p-0.5 rounded-full w-full">
-                <div className="w-1/4 h-2 bg-[#16a91b] rounded-full"></div>
+                <div
+                  className="h-2 bg-[#16a91b] rounded-full"
+                  style={{
+                    width: `${
+                      (Number(details?.raised?.replace(/,/g, "")) /
+                        Number(details?.goal?.replace(/,/g, ""))) *
+                      100
+                    }%`,
+                    minWidth: "5px",
+                  }}
+                ></div>
               </div>
             </div>
 
