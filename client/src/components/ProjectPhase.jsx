@@ -3,11 +3,15 @@ import ProjectPhaseCarousel from "./ui/ProjectPhaseCarousel";
 import FadeInEffect from "./ui/FadeInEffect";
 
 const ProjectPhase = ({ phases }) => {
+  if (!phases || !phases.length) {
+    return <p className="text-center text-lg">No project phases available.</p>;
+  }
   return (
     <div className="flex flex-col gap-6">
       <h3 className="text-2xl text-center lg:text-left lg:text-6xl font-satoshi-bold">
         Project Phase
       </h3>
+
       {phases.map((phase) => (
         <FadeInEffect translateY={20} key={phase.phaseNumber}>
           <div
@@ -17,7 +21,7 @@ const ProjectPhase = ({ phases }) => {
             <h3 className=" p-6 lg:p-10  text-xl text-center xl:text-left lg:text-3xl font-satoshi-bold">
               Phase {phase.phaseNumber}
             </h3>
-            <ProjectPhaseCarousel />
+            <ProjectPhaseCarousel phaseImages={phase.images} />
             <div className="flex flex-col xl:flex-row xl:justify-between gap-10 p-6 xl:p-10">
               <div className="flex flex-col xl:sticky top-10 h-full xl:p-4 xl:w-1/2  rounded-xl gap-4">
                 <div className="flex gap-3 border-b border-b-[#d7d7d7] pb-3">

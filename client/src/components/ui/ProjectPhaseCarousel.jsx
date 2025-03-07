@@ -1,12 +1,10 @@
 import Tabs from "@mui/material/Tabs";
 import Box from "@mui/material/Box";
-import Imagetest from "../../assets/images/phase1.jpg";
-import Imagetest2 from "../../assets/images/phase2.jpg";
-import Imagetest3 from "../../assets/images/phase3.jpeg";
+
 import { useState } from "react";
 import { Tab } from "@mui/material";
 
-export default function ProjectPhaseCarousel() {
+export default function ProjectPhaseCarousel({ phaseImages }) {
   const [value, setValue] = useState(0);
   //   const [currentImage, setCurrentImage] = useState(0);
   //   const [isEnlarged, setIsEnlaged] = useState(false);
@@ -37,10 +35,15 @@ export default function ProjectPhaseCarousel() {
   //     pb: 3,
   //   };
 
-  const images = [Imagetest3, Imagetest, Imagetest2];
-
   return (
-    <Box>
+    <Box
+      sx={{
+        display: "grid",
+        justifyContent: "center",
+        alignItems: "center",
+        width: "100%",
+      }}
+    >
       <Tabs
         value={value}
         onChange={handleChange}
@@ -49,8 +52,14 @@ export default function ProjectPhaseCarousel() {
         allowScrollButtonsMobile
         aria-label="scrollable force tabs example"
         indicatorColor="none"
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          maxWidth: "100%",
+        }}
       >
-        {images.map((image, index) => (
+        {phaseImages.map((image, index) => (
           <Tab
             key={index}
             icon={

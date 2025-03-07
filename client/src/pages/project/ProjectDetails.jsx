@@ -10,14 +10,25 @@ import { phases } from "../../phases";
 const ProjectDetails = () => {
   const { id } = useParams();
   const [details, setDetails] = useState({});
+  const [projectPhases, setProjectPhases] = useState([]);
+
   const fetchProjectDetails = () => {
     const project = projects.find((project) => project.id === id);
     if (project) {
       setDetails(project);
     }
   };
+  const fetchProjectPhases = () => {
+    const phase = phases.find((phase) => phase.id === id);
+    if (phase) {
+      setProjectPhases(phase.details || []);
+    } else {
+      setProjectPhases([]);
+    }
+  };
   useEffect(() => {
     fetchProjectDetails();
+    fetchProjectPhases();
   }, [id, details]);
 
   return (
@@ -46,7 +57,7 @@ const ProjectDetails = () => {
         </div>
       </FadeInEffect>
       <FadeInEffect delay={0.2}>
-        <ProjectPhase phases={phases} />
+        <ProjectPhase phases={projectPhases} />
       </FadeInEffect>
       <FadeInEffect delay={0.2}>
         <div className="flex flex-col xl:flex-row w-full  gap-10">

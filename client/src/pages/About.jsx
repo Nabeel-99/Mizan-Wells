@@ -54,15 +54,15 @@ const About = () => {
             Who We Are
           </h3>
           <p className="text-lg text-justify px-4 lg:px-0 lg:text-xl">
-            Mizan Wells, inspired by the teachings of Islam, is built on
-            compassion, unity, and the drive to create lasting change. Guided by
-            principles of charity and kindness, we work to address critical
-            challenges and uplift underserved communities. Through thoughtful
-            planning and impactful programs, we aim to empower individuals and
-            families, fostering resilience and self-reliance. Mizan Wells is
-            more than an organization; it is a faith-driven movement dedicated
-            to building a future filled with hope, dignity, and opportunity for
-            all.
+            LoveandLight Foundation, inspired by the teachings of Islam, is
+            built on compassion, unity, and the drive to create lasting change.
+            Guided by principles of charity and kindness, we work to address
+            critical challenges and uplift underserved communities. Through
+            thoughtful planning and impactful programs, we aim to empower
+            individuals and families, fostering resilience and self-reliance.
+            LoveandLight Foundation is more than an organization; it is a
+            faith-driven movement dedicated to building a future filled with
+            hope, dignity, and opportunity for all.
           </p>
         </div>
       </FadeInEffect>

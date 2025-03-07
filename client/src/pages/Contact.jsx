@@ -50,16 +50,19 @@ const Contact = () => {
                     Email: ufi@gmail.com
                   </Link>
                   <div className="border p-4 w-full bg-[#ececec] border-[#ececec]  font-satoshi-bold   rounded-full">
-                    Phone: +234 803 123 4567
+                    Phone: 09166580000/0901 900 9430
                   </div>
                   <div className="border p-4 w-full bg-[#ececec] border-[#ececec]  font-satoshi-bold   rounded-full">
                     Address: Wuse 2, Abuja.
                   </div>
                   <div className="flex items-center gap-6">
-                    <Link>
+                    <Link
+                      to={"https://www.instagram.com/loveandlightrelieff/"}
+                      target="_blank"
+                    >
                       <FaInstagram className="text-3xl text-pink-700" />
                     </Link>
-                    <Link>
+                    <Link to={"https://x.com/loveandlightRF"} target="_blank">
                       <FaXTwitter className="text-3xl text-black" />
                     </Link>
                   </div>

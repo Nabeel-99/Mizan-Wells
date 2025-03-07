@@ -9,7 +9,9 @@ const SideBar = () => {
         <div className="flex flex-col gap-6">
           <div className="flex items-center gap-1">
             <img src={AppLogo} alt="" className="w-2 h-2 object-contain" />
-            <h3 className="text-xl font-satoshi-bold">Mizan Wells</h3>
+            <h3 className="text-xl font-satoshi-bold">
+              LoveandLight Foundation
+            </h3>
           </div>
           <Link to={"/admin/dashboard"} className=" px-4 py-1 rounded-lg">
             Dashboard

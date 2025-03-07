@@ -1,12 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AppLogo from "../../assets/images/logo.png";
+import AppLogo from "../../assets/images/logocopy.JPG";
 const LargeNavbar = () => {
   return (
     <>
       <Link to={"/"} className="hidden lg:flex items-center gap-1">
-        <img src={AppLogo} alt="" className="w-10 h-10 object-contain" />
-        <h3 className="text-xl font-satoshi-bold">Mizan Wells</h3>
+        <img
+          src={AppLogo}
+          alt=""
+          className="w-10 h-10 rounded-full object-cover"
+        />
+        <h3 className="text-xl font-satoshi-bold">LoveandLight Foundation</h3>
       </Link>
       <nav className="hidden lg:flex items-center mr-10  z-20 gap-4">
         <Link

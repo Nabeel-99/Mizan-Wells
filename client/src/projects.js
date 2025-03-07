@@ -1,14 +1,14 @@
 import Empowerment from "./assets/images/student.jpg";
 import Well from "./assets/images/well.jpeg";
 import Shelter from "./assets/images/homeless.jpg";
-
+import Tree from "./assets/images/tree7.JPG";
 export const projects = [
   {
-    id: "empowering-future-leaders",
-    title: "Empowering Future Leaders",
+    id: "feed-the-poor",
+    title: "Feed The Poor",
     image: Empowerment,
     description:
-      "Support young students from underprivileged backgrounds by funding school supplies, uniforms, and tuition fees. By helping these students gain access to education, you are investing in their future and helping them break the cycle of poverty.",
+      "Even with just ₦1,000, you can make a meaningful impact—providing meals and hope to those in need. No amount is too small to make a difference!",
     descriptionTwo:
       "Education is the cornerstone of personal and societal development. Many children, especially those from low-income families, face barriers to accessing quality education. This project seeks to provide financial support to students who require assistance with school supplies, uniforms, and tuition fees. By empowering these young learners, we are helping to create future leaders who will contribute positively to their communities and society at large.",
     quoteSpan: "Quran(2:261)",
@@ -17,7 +17,7 @@ export const projects = [
     raised: "50,000",
     Goal: "5,000,000",
     donors: "50",
-    to: "/donate/empowering-future-leaders",
+    to: "/donate/feed-the-poor",
   },
   {
     id: "village-wells-project",
@@ -50,5 +50,21 @@ export const projects = [
     Goal: "5,000,000",
     donors: "50",
     to: "/donate/shelter-and-support",
+  },
+  {
+    id: "trees-for-future-generations",
+    title: "Trees for Future Generations",
+    image: Tree,
+    description:
+      "Plant trees in deforested areas to combat climate change, improve air quality, and restore ecosystems. A lasting act of charity for future generations.",
+    descriptionTwo:
+      "Deforestation is a critical environmental issue contributing to climate change, soil erosion, and the loss of biodiversity. The Trees for Future Generations project aims to plant trees in deforested areas, improving the ecosystem, reducing carbon footprints, and providing cleaner air for future generations. By planting trees, we not only help the planet but also create a legacy of environmental stewardship that will benefit generations to come.",
+    quoteSpan: "Sahih Bukhari",
+    quote:
+      "If a Muslim plants a tree or sows seeds, and then a bird, or a person, or an animal eats from it, it is regarded as a charitable gift (Sadaqah) for him.",
+    raised: "1,250,000",
+    Goal: "10,000,000",
+    donors: "150",
+    to: "/donate/trees-for-future-generations",
   },
 ];
